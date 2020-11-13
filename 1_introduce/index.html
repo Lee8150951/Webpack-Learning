@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack简介</title>
+    <!-- 需要工具将less转化为css浏览器才可以识别 -->
+    <link rel="stylesheet" href="./index.less">
+</head>
+<body>
+    <h1 id="title">hello webpack</h1>
+    <h2>1.Entry</h2>
+    <h4>入口指示Webpack以哪个文件作为入口进行打包，分析构建内部依赖图</h4>
+    <h2>2.Output</h2>
+    <h4>输出指示Webpack打包后的资源bundles输出到哪里去，以及如何命名</h4>
+    <h2>3.Loader</h2>
+    <h4>Loader让Webpack能够让去处理那些非JavaScript文件（Webpack自身只理解JavaScript）</h4>
+    <h2>4.Plugins</h2>
+    <h4>插件可以用于执行范围更广的任务，插件的范围包括从打包优化和压缩，一直到重新定义环境中的变量</h4>
+    <h2>5.Mod</h2>
+    <h4>模式分为两种：development和production，前者能让代码在本地调试，后者能让代码优化上线运行环境</h4>
+    <script src="./index.js"></script>
+</body>
+</html>
